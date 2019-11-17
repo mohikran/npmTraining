@@ -1,0 +1,17 @@
+{
+  "name": "npmtraining",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./src/test/unit/serverTest.js",
+    "start": "node ./src/app/server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "mocha": "^6.2.2",
+    "chai": "1.6.0"
+  },
+  "author": "",
+  "license": "ISC"
+}
